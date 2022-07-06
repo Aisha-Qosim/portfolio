@@ -1,0 +1,113 @@
+body{
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    margin: 1.4rem 1rem;
+    padding: 0 1rem;
+}
+
+.heading{
+    height: 95vh;
+    background-image: linear-gradient(to left, rgba(41, 152, 225, 0.8), rgba(225, 119, 48, 0.8));
+    background-size: cover;
+}
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.header-logo span{
+    color: orangered;
+}
+.section{
+    text-align: center;
+}
+.section-home-page{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.section-home-page span{
+    color: orangered;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.About-Me{
+    height: 120vh;
+    margin-top: -2rem;
+    background-color: #eee;
+}
+.About-Me-heading{
+    text-align: center;
+    padding-top: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: orangered;
+}
+.About-Me-text{
+    text-align: center;
+}
+.About-Me-paragraph{
+    font-size: 1.2rem;
+}
+.About-me-description{
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20rem;
+    border: 2px solid #999;
+    padding: 2rem 2rem;
+}
+.About-me-description:hover{
+    background-color: #000;
+    color: orangered;
+}
+.About-me-description-flex{
+    margin: 0 3rem;
+}
+.About-me-description-margin{
+    margin-right: 5rem;
+}
+.About-me-description-padding{
+    margin-left: 3rem;
+}
+.footer{
+    background-image: url(rx2.jpg);
+    background-position: center;
+    text-align: center;
+    height: 6vh;
+    margin-top: -0.8rem;
+}
+.footer p{
+    padding-top: 1rem;
+    font-weight: 700;
+}
+.navigation ul{
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 35rem;
+}
+.navigation-list{
+    list-style: none;
+
+}
+.navigation-link{
+    text-decoration-line: none;
+    margin: 0.3rem;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navigation-link:hover{
+    color: orangered;
+    background-color: #000;
+}
+@media(max-width:700px){
+    .body{
+        font-size: 25px;
+        font-weight: 100;
+    }
+}
